@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FixacaoConceitosBasicos1.Model
 {
-    public class SomaDoisNumeros
+    internal class CalculaDesconto
     {
-        public int Somar(int num1,  int num2)
+        public static double Calcular(double valor, double desconto)
         {
-            return num1 + num2;
+            return valor - (valor * desconto / 100);
         }
     }
 }

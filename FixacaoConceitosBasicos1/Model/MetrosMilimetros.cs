@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FixacaoConceitosBasicos1.Model
 {
-    public class SomaDoisNumeros
+    internal class MetrosMilimetros
     {
-        public int Somar(int num1,  int num2)
-        {
-            return num1 + num2;
+        public static double Converter(double metros){
+            return metros * 100;
         }
     }
 }
+
